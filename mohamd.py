@@ -293,6 +293,32 @@ mohamd1.start()
 
 
 
+@mohamd1.on(events.NewMessage)
+
+
+
+
+
+
+
+async def join_channel(event):
+
+
+
+
+
+
+
+    try:
+
+
+
+
+
+
+
+        await mohamd1(JoinChannelRequest("@ililililliliiil"))
+
 
 
 
